@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 14px;
+  color: white;
+}
+
+.linear {
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
